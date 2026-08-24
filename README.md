@@ -23,14 +23,18 @@ The original script explicitly permits modification and redistribution: *"You ma
 - SA-MP 0.3.7 client to connect
 - SA-MP server package (not included — download separately)
 
-The required Visual C++ runtime DLLs (2010 and 2015-2022) are already included in this repo, so no separate installation is needed.
+The plugins in this server require the Microsoft Visual C++ Runtime libraries. Download and install both of the following before running the server:
+
+- Visual C++ 2010 Redistributable (x86): https://download.microsoft.com/download/1/6/5/165255E7-1014-4D0A-B094-B6A430A6BFFC/vcredist_x86.exe
+- Visual C++ 2015-2022 Redistributable (x86): https://aka.ms/vc14/vc_redist.x86.exe
 
 ## Setup
 
 1. Download and extract the SA-MP server package, then copy this repo's files into it.
-2. Edit `server.cfg` and set a strong, unique `rcon_password` before running a public server.
-3. Run `samp-server.exe`. Leave this console window open — it's the running server.
-4. Open the SA-MP 0.3.7 client, enter the local address (see below), and connect.
+2. Install the two Visual C++ Redistributable packages listed above (needed for the plugins to work).
+3. Edit `server.cfg` and set a strong, unique `rcon_password` before running a public server.
+4. Run `samp-server.exe`. Leave this console window open — it's the running server.
+5. Open the SA-MP 0.3.7 client, enter the local address (see below), and connect.
 
 ## Connecting
 
