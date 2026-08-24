@@ -1,0 +1,29 @@
+TEXTURE STUDIO - HASZNALAT
+==========================
+
+1. Inditas: kattints duplan az INDITAS.bat fajlra.
+2. Csatlakozas ugyanazon a gepen: 127.0.0.1:7777
+3. Leallitas: a szerver konzoljaba ird be: exit
+4. Ujraforditas forrasmodositas utan: FORDITAS.bat
+
+A szerver alapbol a 7777-es portot hasznalja. Internetes elereshez a
+routeren es a Windows tuzfalon a 7777/UDP portot engedelyezni kell.
+Windows tuzfalhoz futtasd rendszergazdakent a TUZFAL_ENGedelyezes.bat fajlt.
+
+Ugyanazon a gepen mindig a 127.0.0.1:7777 cimet hasznald, ne a nyilvanos
+IP-cimet. Masik, azonos halozaton levo gepen a szervergep helyi IPv4 cimet
+hasznald, peldaul 192.168.1.25:7777.
+
+Kliens: ez a csomag a normal SA-MP 0.3.7 klienssel kompatibilis. Az egyedi
+artwork mod ki van kapcsolva, mert az eltero kliensverziot igenyelhet.
+
+Biztonsag:
+A server.cfg fajlban az rcon_password erteket nyilvanos szerver inditasa
+elott csereld le egy eros, egyedi jelszora.
+
+Hibakereses:
+A teljes inditasi naplo a server_log.txt fajlba kerul.
+
+A csomag tartalmazza a pluginokhoz szukseges 32 bites Visual C++ 2010 es
+Visual C++ 2015-2022 futtatokonyvtarakat. Ezek nelkul a konzolban a pluginok
+mellett "Failed." jelenhet meg, akkor is, ha maga a plugin DLL megvan.
