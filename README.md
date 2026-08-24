@@ -20,7 +20,7 @@ The original script explicitly permits modification and redistribution: *"You ma
 
 ## Requirements
 
-- SA-MP 0.3.7 client to connect — official download page: 
+- SA-MP 0.3.7 client to connect — official download page: https://gta-multiplayer.cz/downloads/sa-mp-0.3.7-R5-2-MP-install.exe
 - SA-MP server package (not included) — same official download page: https://gta-multiplayer.cz/downloads/samp037_svr_R2-2-1_win32.zip
 
 The plugins in this server require the Microsoft Visual C++ Runtime libraries. Download and install both of the following before running the server:
