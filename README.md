@@ -20,8 +20,8 @@ The original script explicitly permits modification and redistribution: *"You ma
 
 ## Requirements
 
-- SA-MP 0.3.7 client to connect
-- SA-MP server package (not included — download separately)
+- SA-MP 0.3.7 client to connect — official download page: 
+- SA-MP server package (not included) — same official download page: https://gta-multiplayer.cz/downloads/samp037_svr_R2-2-1_win32.zip
 
 The plugins in this server require the Microsoft Visual C++ Runtime libraries. Download and install both of the following before running the server:
 
@@ -30,8 +30,9 @@ The plugins in this server require the Microsoft Visual C++ Runtime libraries. D
 
 ## Setup
 
-1. Download and extract the SA-MP server package, then copy this repo's files into it.
-2. Install the two Visual C++ Redistributable packages listed above (needed for the plugins to work).
+1. Download and extract the SA-MP server package from the official download page above.
+2. Download this repo's files (Code → Download ZIP, or `git clone`) and copy/merge them into the extracted SA-MP server folder, overwriting where prompted — this repo does not include the base SA-MP server files, only the Texture Studio-specific ones.
+3. Install the two Visual C++ Redistributable packages listed above (needed for the plugins to work).
 3. Edit `server.cfg` and set a strong, unique `rcon_password` before running a public server.
 4. Run `samp-server.exe`. Leave this console window open — it's the running server.
 5. Open the SA-MP 0.3.7 client, enter the local address (see below), and connect.
