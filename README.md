@@ -1,4 +1,4 @@
-# Texture Studio
+# Texture-Studio-SAMP-Workable-Version
 
 A San Andreas Multiplayer (SA-MP) server setup, including gamemode, filterscripts, and configuration for running a Texture Studio server.
 
@@ -27,6 +27,8 @@ The plugins in this server require the Microsoft Visual C++ Runtime libraries. D
 - Visual C++ 2010 Redistributable (x86): https://download.microsoft.com/download/1/6/5/165255E7-1014-4D0A-B094-B6A430A6BFFC/vcredist_x86.exe
 - Visual C++ 2015-2022 Redistributable (x86): https://aka.ms/vc14/vc_redist.x86.exe
 
+Note: install the x86 (32-bit) versions above, even on a 64-bit Windows system — the SA-MP server itself is a 32-bit program.
+
 ## Setup
 
 1. Download and extract the SA-MP server package from the official download page above.
@@ -40,10 +42,6 @@ The plugins in this server require the Microsoft Visual C++ Runtime libraries. D
 
 - Same machine: `127.0.0.1:7777`
 - Same local network: the server machine's local IP, e.g. `192.168.1.25:7777`
-
-## Building from source
-
-After modifying the filterscript source, run `translation.bat` to recompile `filterscripts/tstudio.pwn` into `tstudio.amx`.
 
 ## Troubleshooting
 
